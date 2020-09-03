@@ -1,0 +1,30 @@
+.nav-column{
+
+  min-width: 20vw;
+}
+
+.content-column{
+  flex:1;
+  min-height: 90vh;
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+  flex:1;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.gutter{
+  width: 20vw;
+}
+
+h4{
+  text-align: center;
+}

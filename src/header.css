@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+    max-height: 1rem;
+}
+
+h2{
+    position: sticky;
+}
+
+/*       <div id="container">
+        <div id="header">
+          <Header title="change to title l8r lmao" />
+        </div>
+        <div id="nav">
+          <NavBar />
+        </div>
+        <div id="ex-content">
+          <h4>this is an example component</h4>
+          <img src="https://www.arborday.org/images/hero/medium/hero-aerial-forest-evergreen-trees.jpg" alt="filler" />
+        </div>
+        <div id="tew1">
+          <h6>tew1</h6>
+          <TEW1 />
+        </div>
+      </div>
+      <div id="footer">
+        <Footer />
+      </div> */

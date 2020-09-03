@@ -1,0 +1,18 @@
+#tew1Container {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.te-image > img{
+    max-width: 600px;
+}
+
+.te-image{
+    display: flex;
+    justify-content: center;
+}
+
+#tew1Container h2 {
+    text-align: center;
+}
