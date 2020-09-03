@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './nav-bar.js'
 import Home from './home.js'
 import Footer from './footer.js'
+import Icons from './social-icons.js'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
              {curContent}
           </div>
           <div className="gutter">
+            <Icons />
           </div>
         </div>
         <div className="row">
