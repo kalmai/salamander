@@ -1,12 +1,12 @@
 #master{
     list-style: none;
     text-align: left;
-    margin-left: -25px;
     position: fixed;
-    height: 100vh;
-    top:0;
-    bottom: 0;
     max-width: 400px;
+    background-color: rgba(250, 235, 215, 0.7);
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 6px;
 }
 
 a:hover,
@@ -31,5 +31,12 @@ a {
     display: flex;
     justify-content: center;
     vertical-align: middle;
-    padding-bottom: 10px;
+}
+
+.NavBar > ul {
+    padding-left: 0;
+}
+
+.NavBar {
+    background-color: rgba(250, 235, 215, 1);
 }

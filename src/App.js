@@ -4,6 +4,7 @@ import NavBar from './nav-bar.js'
 import Home from './home.js'
 import Footer from './footer.js'
 
+
 function App() {
 
   const [curContent, setContent] = useState(<Home />);

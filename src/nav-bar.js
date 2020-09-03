@@ -13,10 +13,7 @@ import Salamander from './salamander.js'
 import SCalice from './sc-alice.js'
 import Fallacy from './fallacy.js'
 
-const NavBar = (props) => {
-
-    const {page} = props;
-
+const NavBar = ({ page }) => {
     return (
         <div className="NavBar">
             <ul id="master">
