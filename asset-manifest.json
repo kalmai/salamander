@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kalmai.github.io/my-app/static/css/main.32feaaac.chunk.css",
+    "main.js": "/kalmai.github.io/my-app/static/js/main.9f8f42b8.chunk.js",
+    "main.js.map": "/kalmai.github.io/my-app/static/js/main.9f8f42b8.chunk.js.map",
+    "runtime-main.js": "/kalmai.github.io/my-app/static/js/runtime-main.3c025696.js",
+    "runtime-main.js.map": "/kalmai.github.io/my-app/static/js/runtime-main.3c025696.js.map",
+    "static/js/2.77ac4fb1.chunk.js": "/kalmai.github.io/my-app/static/js/2.77ac4fb1.chunk.js",
+    "static/js/2.77ac4fb1.chunk.js.map": "/kalmai.github.io/my-app/static/js/2.77ac4fb1.chunk.js.map",
+    "index.html": "/kalmai.github.io/my-app/index.html",
+    "precache-manifest.01bf4a41337e5094de78a1aee3656663.js": "/kalmai.github.io/my-app/precache-manifest.01bf4a41337e5094de78a1aee3656663.js",
+    "service-worker.js": "/kalmai.github.io/my-app/service-worker.js",
+    "static/css/main.32feaaac.chunk.css.map": "/kalmai.github.io/my-app/static/css/main.32feaaac.chunk.css.map",
+    "static/js/2.77ac4fb1.chunk.js.LICENSE.txt": "/kalmai.github.io/my-app/static/js/2.77ac4fb1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c025696.js",
+    "static/js/2.77ac4fb1.chunk.js",
+    "static/css/main.32feaaac.chunk.css",
+    "static/js/main.9f8f42b8.chunk.js"
+  ]
+}
