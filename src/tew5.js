@@ -1,10 +1,12 @@
 import React from 'react';
 import './tew1.css'
+import Header from './header.js'
 
 function tew5(){
     return(
         <div id="tew1Container">
-            <h2>Tech Elevator: 5</h2>
+            <Header title="Tech Elevator Blog"/>
+            <h3>Week: 5</h3>
             <div className="te-image">
             <img src="https://i.imgur.com/VUJ3RrB.jpg" alt="desktop" />
             </div>

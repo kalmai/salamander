@@ -3,10 +3,11 @@
     text-align: left;
     position: fixed;
     max-width: 400px;
-    background-color: rgba(250, 235, 215, 0.7);
+    background-color: white;
     margin-left: 5px;
     padding: 10px;
     border-radius: 6px;
+    box-shadow: 3px 13px 15px 0px rgb(65,65,65,0.7);
 }
 
 a:hover,
@@ -31,12 +32,12 @@ a {
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 4px 0px rgb(65,65,65,0.7);
 }
 
 .NavBar > ul {
     padding-left: 0;
 }
 
-.NavBar {
-    background-color: rgba(250, 235, 215, 1);
-}

@@ -1,10 +1,12 @@
 import React from 'react';
 import './tew1.css'
+import Header from './header.js'
 
 function Salamander() {
     return (
         <div id="tew1Container">
-            <h2>Salamander by <a href="https://letsgetit.io/" target="_blank" rel="noopener noreferrer">HHHH</a></h2>
+            <Header title="Mechanical Keyboards" />
+            <h3>Salamander by <a href="https://letsgetit.io/" target="_blank" rel="noopener noreferrer">HHHH</a></h3>
             <div className="te-image">
                 <img src="https://i.imgur.com/eV5rpwq.jpg" alt="salamander keyboard" />
             </div>

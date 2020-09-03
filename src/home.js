@@ -2,11 +2,14 @@ import React from 'react'
 import Header from './header'
 import TEW1 from './tew1.js'
 import SCalice from './sc-alice.js'
+import './home.css'
 
 function Home() {
     return (
         <div>
-            <Header title="landing page title" />
+            <div className="home-title">
+            <Header title="My GitPage" />
+            </div>
             <div className="tew1">
                 <TEW1 />
             </div>

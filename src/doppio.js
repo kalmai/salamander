@@ -1,10 +1,12 @@
 import React from 'react';
 import './tew1.css'
+import Header from './header.js'
 
 function Doppio() {
     return (
         <div id="tew1Container">
-            <h2>Doppio 80 by <a href="https://play-keyboard.store/" target="_blank" rel="noopener noreferrer">Play Keyboards</a></h2>
+            <Header title="Mechanical Keyboards" />
+            <h3>Doppio 80 by <a href="https://play-keyboard.store/" target="_blank" rel="noopener noreferrer">Play Keyboards</a></h3>
             <div className="te-image">
                 <img src="https://cdn.discordapp.com/attachments/186505434146930688/593584139391729696/JPEG_20190626_193109.jpg" alt="doppio keyboard" />
             </div>

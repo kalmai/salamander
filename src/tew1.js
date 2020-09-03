@@ -6,7 +6,7 @@ function tew1(){
     return(
         <div id="tew1Container">
             <Header title="Tech Elevator Blog"/>
-            <h4>Week: 1</h4>
+            <h3>Week: 1</h3>
             <div className="te-image">
             <img src="https://i.imgur.com/VUJ3RrB.jpg" alt="desktop" />
             </div>

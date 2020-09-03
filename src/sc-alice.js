@@ -1,10 +1,12 @@
 import React from 'react';
 import './tew1.css'
+import Header from './header.js'
 
 function SCalice() {
     return (
         <div id="tew1Container">
-            <h2>Alice by <a href="https://switchcouture.com/" target="_blank" rel="noopener noreferrer">Swith Couture</a></h2>
+            <Header title="Mechanical Keyboards" />
+            <h3>Alice by <a href="https://switchcouture.com/" target="_blank" rel="noopener noreferrer">Swith Couture</a></h3>
             <div className="te-image">
                 <img src="https://i.imgur.com/lOFnL19.jpg" alt="acrylic alice keyboard" />
             </div>

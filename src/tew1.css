@@ -6,6 +6,7 @@
 
 .te-image > img{
     max-width: 600px;
+    border-radius: 6px;
 }
 
 .te-image{
@@ -13,6 +14,6 @@
     justify-content: center;
 }
 
-#tew1Container h2 {
+#tew1Container h3 {
     text-align: center;
 }

@@ -4,7 +4,7 @@ import './tew1.css'
 function Construction(){
     return(
         <div id="tew1Container">
-            <h2>Page Under Construction</h2>
+            <h3>Page Under Construction</h3>
             <div className="te-image">
             <img src="https://fujidengyo.net/illust3472.png" alt="under construction" />
             </div>
