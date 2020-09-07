@@ -38,3 +38,46 @@
 h4{
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .gutter{
+    left: 0;
+    top: 340px;
+  }
+  .mobile-nav{
+    display:none;
+  }
+  .content-column{
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 50px){
+  .nav-column{
+    visibility: hidden;
+    min-width: 0;
+  }
+  .gutter{
+    display:none;
+  }
+
+  .content-column{
+    width: 100vw;
+    margin-top:50px;
+  }
+  .content{
+    background: none;
+    height: 0%;
+  }
+  .mobile-nav{
+    position: fixed;
+    height: auto;
+  }
+  
+}
+
+@media screen and (min-width: 1025px){
+  .mobile-nav{
+    display:none;
+  }
+}

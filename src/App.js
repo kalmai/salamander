@@ -1,9 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import NavBar from './nav-bar.js'
 import Home from './home.js'
 import Footer from './footer.js'
 import Icons from './social-icons.js'
+import MobileNav from './mobile-nav.js'
 
 
 function App() {
@@ -12,13 +13,16 @@ function App() {
 
   return (
     <>
+      <div className="mobile-nav">
+        <MobileNav mPage={setContent} />
+      </div>
       <div className="content">
         <div className="row">
           <div className="nav-column">
-            <NavBar page={setContent}/>
+            <NavBar page={setContent} />
           </div>
           <div className="content-column">
-             {curContent}
+            {curContent}
           </div>
           <div className="gutter">
             <Icons />

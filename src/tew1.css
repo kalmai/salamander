@@ -7,13 +7,22 @@
 .te-image > img{
     max-width: 600px;
     border-radius: 6px;
+    width: 90%;
 }
 
 .te-image{
     display: flex;
     justify-content: center;
+
 }
 
 #tew1Container h3 {
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .te-image > img{
+        max-width: 90vw;
+        border-radius: 6px;
+    }
 }

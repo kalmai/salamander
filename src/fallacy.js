@@ -1,10 +1,12 @@
 import React from 'react';
 import './tew1.css'
+import Header from './header.js';
 
 function Fallacy() {
     return (
         <div id="tew1Container">
-            <h2>Fallacy by <a href="https://discord.gg/GsPPv4" target="_blank" rel="noopener noreferrer">ES Keyboards</a></h2>
+            <Header title="Mechanical Keyboards" />
+            <h3>Fallacy by <a href="https://discord.gg/GsPPv4" target="_blank" rel="noopener noreferrer">ES Keyboards</a></h3>
             <div className="te-image">
                 <img src="https://i.imgur.com/S7ZUfx8.jpg?1" alt="fallacy keyboard" />
             </div>
