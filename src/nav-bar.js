@@ -7,7 +7,6 @@ import TEW3 from './tew3.js'
 import TEW4 from './tew4.js'
 import TEW5 from './tew5.js'
 import TEW6 from './tew6.js'
-import Construction from './wip.js'
 import Doppio from './doppio.js'
 import Salamander from './salamander.js'
 import SCalice from './sc-alice.js'
@@ -26,7 +25,6 @@ const NavBar = ({ page }) => {
                     <li><span onClick={() => {page(<TEW4 />); window.scrollTo(0,0)}}>Week 4</span></li>
                     <li><span onClick={() => {page(<TEW5 />); window.scrollTo(0,0)}}>Week 5</span></li>
                     <li><span onClick={() => {page(<TEW6 />); window.scrollTo(0,0)}}>Week 6</span></li>
-                    {/* <li><span onClick={() => page(<Construction />)}>Graduation</span></li> */}
                 </ul>
                 <li id="topic">Mechanical Keyboards</li>
                 <ul>
@@ -35,7 +33,7 @@ const NavBar = ({ page }) => {
                     <li><span onClick={() => {page(<SCalice />); window.scrollTo(0,0)}}>SC Alice</span></li>
                     <li><span onClick={() => {page(<Fallacy />); window.scrollTo(0,0)}}>Fallacy</span></li>
                 </ul>
-                {/* <li id="topic"><span onClick={() => page(<Construction />)}>Flash-Card App</span></li> */}
+                <li id="topic"><a href="https://kalmai.github.io/flash-card/" target="_blank" rel="noopener noreferrer">Flash-Card App</a></li>
             </ul>
         </div>
     );

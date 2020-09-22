@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState} from 'react';
 import './mobile-nav.css'
 import Home from './home.js'
 import TEW1 from './tew1.js'
@@ -66,9 +66,12 @@ const MobileNav = ({ mPage }) => {
                                     <li><span onClick={() => { mPage(<SCalice />); setShownList(!shownList); window.scrollTo(0, 0) }}>SC Alice</span></li>
                                     <li><span onClick={() => { mPage(<Fallacy />); setShownList(!shownList); window.scrollTo(0, 0) }}>Fallacy</span></li>
                                 </ul>
+                                <li>
+                                    <a href="https://kalmai.github.io/flash-card/" target="_blank" rel="noopener noreferrer">Flash-Card App</a>
+                                </li>
                             </ul>
                             <div className="close-menu">
-                            <span onClick={()=> setShownList(!shownList)}>Close Menu</span><img src="https://icons-for-free.com/iconfiles/png/512/x-1321215629555778185.png" onClick={()=> setShownList(!shownList)}></img>
+                            <span onClick={()=> setShownList(!shownList)}>Close Menu</span><img src="https://icons-for-free.com/iconfiles/png/512/x-1321215629555778185.png" alt="close button" onClick={()=> setShownList(!shownList)}></img>
                             </div>
                             
                         </div>
