@@ -80,6 +80,10 @@
     flex:1;
 }
 
+.external-links{
+    text-align: left;
+}
+
 @media screen and (max-width: 768px) and (min-width: 320px){
     .mobile-nav{
         display:flex;

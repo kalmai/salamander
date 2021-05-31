@@ -66,8 +66,11 @@ const MobileNav = ({ mPage }) => {
                                     <li><span onClick={() => { mPage(<SCalice />); setShownList(!shownList); window.scrollTo(0, 0) }}>SC Alice</span></li>
                                     <li><span onClick={() => { mPage(<Fallacy />); setShownList(!shownList); window.scrollTo(0, 0) }}>Fallacy</span></li>
                                 </ul>
-                                <li>
+                                <li className="external-links">
                                     <a href="https://kalmai.github.io/flash-card/" target="_blank" rel="noopener noreferrer">Flash-Card App</a>
+                                </li>
+				<li className="external-links">
+                                    <a href="https://app-gaslight.herokuapp.com/" target="_blank" rel="noopener noreferrer">Rails Starter Project</a>
                                 </li>
                             </ul>
                             <div className="close-menu">

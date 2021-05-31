@@ -34,6 +34,7 @@ const NavBar = ({ page }) => {
                     <li><span onClick={() => {page(<Fallacy />); window.scrollTo(0,0)}}>Fallacy</span></li>
                 </ul>
                 <li id="topic"><a href="https://kalmai.github.io/flash-card/" target="_blank" rel="noopener noreferrer">Flash-Card App</a></li>
+                <li id="topic"><a href="https://app-gaslight.herokuapp.com/" target="_blank" rel="noopener noreferrer">Rails Starter Project</a></li>
             </ul>
         </div>
     );
